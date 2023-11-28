@@ -14,9 +14,6 @@ this theme
 To select the theme you need to login to your keycloak admin console. Go to
 Realms and themes and select from dropdown.
 
-image:https://cdn-images-1.medium.com/max/1000/0*49oKObDvfQyfw5WH.[keycloak
-themes 2017-05-30 12-08-02.png]
-
 [[configure-your-own-theme]]
 == Configure your own Theme
 
