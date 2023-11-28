@@ -1,7 +1,7 @@
-[[theme-for-raincatcher-for-keycloak]]
-= Theme for Raincatcher for Keycloak
+[[theme-for-letsgototsm-for-keycloak]]
+= Theme for LetSGo for Keycloak
 
-image:https://cdn-images-1.medium.com/max/800/0*lMzC1bK4bQulI6GB.[raincatcher
+image:https://cdn-images-1.medium.com/max/800/0*lMzC1bK4bQulI6GB.[letsgototsm
 theme]
 
 
@@ -46,7 +46,7 @@ To change the title for your login and register user screen you can edit the CSS
 located at
 
 ....
-./raincatcher-keycloak-theme/login/resources/css/styles.css
+./letsgototsm-keycloak-theme/login/resources/css/styles.css
 ....
 
 Make changes here to change the title
@@ -148,9 +148,9 @@ Pull my image here
 [source,bash]
 ----
 # Keycloak image with this theme applied
-docker pull austincunningham/keycloak-raincatcher-theme
+docker pull austincunningham/keycloak-letsgototsm-theme
 # Run with
-docker run -p 8080:8080 -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin austincunningham/keycloak-raincatcher-theme:tryme
+docker run -p 8080:8080 -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin austincunningham/keycloak-letsgototsm-theme:tryme
 ----
 
 See this https://austincunningham.ddns.net/2020/changekeycloakdockertheme[blog] about how to apply a theme to the Keycloak docker image. 
